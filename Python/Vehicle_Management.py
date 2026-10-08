@@ -20,12 +20,16 @@ def exit(vehicle_number:int, exit_time: float):
                 extra_fee = extra_duration * 10
                 total_fee = (vehicle[1] * 10) + extra_fee
                 print("Vehicle exit recorded successfully.")
+                print("-----------------------------------------------")
+                print("-----------------------------------------------")
                 print("Vehicle Number:", vehicle_number)
                 print("Actual Parking Duration:", actual_parking_duration)
                 print("Extra Duration:", extra_duration)
                 print("Extra Fee: Rupees-", extra_fee)
                 print("Total Parking Fee: Rupees-", total_fee)
             else:
+                print("-----------------------------------------------")
+                print("-----------------------------------------------")
                 total_fee = actual_parking_duration * 10
                 print("Vehicle exit recorded successfully.")
                 print("Vehicle Number:", vehicle_number)
